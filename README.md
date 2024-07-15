@@ -1,5 +1,5 @@
 # VBA-report-splitter
-This code was created to split a large report into smaller pieces because the original report could not be uploaded to a certain system. The output files will be generated in the same folder as the selected source file. The source file will be split every 350 rows. For example, if the source file contains 2500 rows, there will be 8 output files in the end.
+This code was created to split a large report into smaller pieces because the original report could not be uploaded to a certain system. In the original file, there are multiple worksheets to handle, each with a different number of rows. The source file will be split every 350 rows per worksheet. For example, if the source file contains 2500 rows, there will be 8 output files in the end.
 
 # How to use it
 1. Put this code in a Macro-enabled Excel file.
